@@ -253,6 +253,12 @@ patch:
     - name: RELATED_IMAGE_ODH_TH06_ROCM64_TORCH291_PY312_IMAGE
       value: quay.io/opendatahub/odh-th06-rocm64-torch291-py312@sha256:922d594e1f6a5f836fa98edb8bc1bda46994bb03765f18017c7d67f8462d321d
       component: odh-th06-rocm64-torch291-py312-ci
+    - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTORAG_IMAGE
+      value: quay.io/opendatahub/odh-mod-arch-autorag@sha256:166370eed951850d0b2f2c6e8576f0a8e624d8e102c2280d73cd6b8f8316b32c
+      component: odh-mod-arch-autorag
+    - name: RELATED_IMAGE_ODH_MOD_ARCH_AUTOML_IMAGE
+      value: quay.io/opendatahub/odh-mod-arch-automl@sha256:a08164e9715667d562b533226d848ecf45da9a3e7937eac306b2de287b46149b
+      component: odh-mod-arch-automl
   additional-related-images:
     file: additional-images-patch.yaml
   additional-fields:
