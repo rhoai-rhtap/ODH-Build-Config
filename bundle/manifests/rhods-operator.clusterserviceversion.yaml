@@ -93,8 +93,8 @@ metadata:
     capabilities: Full Lifecycle
     categories: AI/Machine Learning, Big Data
     certified: "False"
-    containerImage: "quay.io/opendatahub/opendatahub-operator@sha256:3097f8fffdc6acfbb209db0925be3e12ac25fe7f60cfccd0f2f87975aa01588e"
-    createdAt: "2026-03-23T18:30:23Z"
+    containerImage: "quay.io/opendatahub/opendatahub-operator@sha256:f4daae28a358974ed791d57358717b00c2131138dcf595f7c861fedbfe5f0cbf"
+    createdAt: "2026-03-23T18:33:49Z"
     description: Operator for deployment and management of Red Hat OpenShift AI
     features.operators.openshift.io/cnf: "false"
     features.operators.openshift.io/cni: "false"
@@ -1950,7 +1950,7 @@ spec:
                 - name: RELATED_IMAGE_ODH_LLAMA_STACK_K8S_OPERATOR_IMAGE
                   value: "quay.io/opendatahub/llama-stack-k8s-operator@sha256:f6a4cd61025b4c6b66ba6bf387a30f0a46665a9fb50b781a995a450ef075d1cd"
                 - name: RELATED_IMAGE_ODH_LLM_D_INFERENCE_SCHEDULER_IMAGE
-                  value: "quay.io/opendatahub/llm-d-inference-scheduler@sha256:a8261008cdfc0cf91c5f35a5b61067f34bbd292d5885e89509a623d596cf191c"
+                  value: "quay.io/opendatahub/llm-d-inference-scheduler@sha256:c6558ce295a530fb99b3eb517a32304cc19f66b6540789626fb8405e2f5f66b3"
                 - name: RELATED_IMAGE_ODH_LLM_D_ROUTING_SIDECAR_IMAGE
                   value: "quay.io/opendatahub/llm-d-routing-sidecar@sha256:c0adf35a62071319011189d1c8eeaa0949c8fa4ddf1023cf4fc85cf35e1a3fc4"
                 - name: RELATED_IMAGE_ODH_KSERVE_AGENT_IMAGE
@@ -2095,7 +2095,7 @@ spec:
                   value: registry.redhat.io/rhaiis/vllm-spyre-rhel9@sha256:4a035bb354c4a0e4040c277b2f1a1ffdc7e61f6f505c5fa5d032d22f50c4fa29
                 - name: RELATED_IMAGE_RHAIIS_VLLM_S390X_SPYRE_IMAGE
                   value: registry.redhat.io/rhaiis/vllm-spyre-rhel9@sha256:4a035bb354c4a0e4040c277b2f1a1ffdc7e61f6f505c5fa5d032d22f50c4fa29
-                image: "quay.io/opendatahub/opendatahub-operator@sha256:3097f8fffdc6acfbb209db0925be3e12ac25fe7f60cfccd0f2f87975aa01588e"
+                image: "quay.io/opendatahub/opendatahub-operator@sha256:f4daae28a358974ed791d57358717b00c2131138dcf595f7c861fedbfe5f0cbf"
                 imagePullPolicy: Always
                 livenessProbe:
                   httpGet:
@@ -2537,8 +2537,8 @@ spec:
     type: MutatingAdmissionWebhook
     webhookPath: /mutate-prometheus-monitors
   relatedImages:
-  - name: opendatahub-operator-3097f8fffdc6acfbb209db0925be3e12ac25fe7f60cfccd0f2f87975aa01588e-annotation
-    image: "quay.io/opendatahub/opendatahub-operator@sha256:3097f8fffdc6acfbb209db0925be3e12ac25fe7f60cfccd0f2f87975aa01588e"
+  - name: opendatahub-operator-f4daae28a358974ed791d57358717b00c2131138dcf595f7c861fedbfe5f0cbf-annotation
+    image: "quay.io/opendatahub/opendatahub-operator@sha256:f4daae28a358974ed791d57358717b00c2131138dcf595f7c861fedbfe5f0cbf"
   - name: odh_kf_notebook_controller_image
     image: "quay.io/opendatahub/kubeflow-notebook-controller@sha256:2d7838d282ad0612a83c49916de17909b3b3fe41fa7eb99e008f53ea82e6e039"
   - name: odh_dashboard_image
@@ -2584,7 +2584,7 @@ spec:
   - name: odh_llama_stack_k8s_operator_image
     image: "quay.io/opendatahub/llama-stack-k8s-operator@sha256:f6a4cd61025b4c6b66ba6bf387a30f0a46665a9fb50b781a995a450ef075d1cd"
   - name: odh_llm_d_inference_scheduler_image
-    image: "quay.io/opendatahub/llm-d-inference-scheduler@sha256:a8261008cdfc0cf91c5f35a5b61067f34bbd292d5885e89509a623d596cf191c"
+    image: "quay.io/opendatahub/llm-d-inference-scheduler@sha256:c6558ce295a530fb99b3eb517a32304cc19f66b6540789626fb8405e2f5f66b3"
   - name: odh_llm_d_routing_sidecar_image
     image: "quay.io/opendatahub/llm-d-routing-sidecar@sha256:c0adf35a62071319011189d1c8eeaa0949c8fa4ddf1023cf4fc85cf35e1a3fc4"
   - name: odh_kserve_agent_image
