@@ -94,7 +94,7 @@ metadata:
     categories: AI/Machine Learning, Big Data
     certified: "False"
     containerImage: REPLACE_IMAGE:latest
-    createdAt: "2026-03-25T00:12:05Z"
+    createdAt: "2026-03-25T22:09:45Z"
     description: Operator for deployment and management of Red Hat OpenShift AI
     features.operators.openshift.io/cnf: "false"
     features.operators.openshift.io/cni: "false"
