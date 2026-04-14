@@ -1,7 +1,5 @@
 config:
-  replacements:
-    - repo_mappings:
-        opendatahub/odh-ai-first-demo: opendatahub/odh-ai-first-demo
+  replacements: []
   supported-ocp-versions:
     build:
       - name: v4.20
