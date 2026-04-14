@@ -292,6 +292,9 @@ patch:
     - name: RELATED_IMAGE_ODH_RHAII_VALIDATOR_TOOLS_IMAGE
       value: quay.io/opendatahub/odh-rhaii-validator-tools@sha256:425c334468835577307f21f052389c5da7d17a5e099b17bea43d6fdf097c7fd2
       component: odh-rhaii-validator-tools
+    - name: RELATED_IMAGE_ODH_AI_FIRST_DEMO_IMAGE
+      value: quay.io/opendatahub/odh-ai-first-demo@sha256:0000000000000000000000000000000000000000000000000000000000000000
+      component: odh-ai-first-demo
   additional-related-images:
     file: additional-images-patch.yaml
   additional-fields:
