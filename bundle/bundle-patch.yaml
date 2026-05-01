@@ -298,6 +298,9 @@ patch:
     - name: RELATED_IMAGE_ODH_AI_THIRD_DEMO_IMAGE
       value: quay.io/opendatahub/odh-ai-third-demo@sha256:739bff743a85eef4fa4a3f481753a5b05dc9644835e5c093ce8754c88e209552
       component: odh-ai-third-demo
+    - name: RELATED_IMAGE_ODH_AI_FOURTH_DEMO_IMAGE
+      value: quay.io/opendatahub/odh-ai-fourth-demo@sha256:cd485c922d9fca3391770ac029a7cf45d9af99f9c093cffce363c23bdfe39fb9
+      component: odh-ai-fourth-demo
   additional-related-images:
     file: additional-images-patch.yaml
   additional-fields:
